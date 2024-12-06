@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage[top=.5in, bottom=.5in, left=1.2in]{geometry}
+\title{Calculus (Differentiation)}
+\author{Advita R.}
+
+\begin{document}
+\maketitle
+%\hrule
+%\tableofcontents
+%\vspace{.1 in}
+%\hrule
+% Section for Ordinary Differentiation
+%\newpage
+\section{Ordinary Differentiation}
+Steps:
+When you have something in parenthesis to a certain power, bring the power down and multiply it by the numbers or variables inside the parenthesis (those are exactly kept the same) and put it to the power of that number subtracted by 1.
+
+
+Ordinary Differentiation is finding the derivative, or the slope when there is only one independent variable. In the examples below, the independent variable is $x$.
+
+Slope, derivative, and $\displaystyle \frac{dy}{dx}$ are the same.
+
+\begin{equation}
+\begin{array}{l}
+y=x^{n}\\
+slope=\frac{dy}{dx} =\ nx^{n-1}\\
+\\
+y=x\\
+\frac{dy}{dx} \ =\ 1( x)^{1-1} =1\\
+\\
+y=2x+3\\
+\frac{dy}{dx} =2\left( 1( x)^{1-1}\right) +0=2\\
+\\
+y=x^{2}\\
+\frac{dy}{dx} =2( x)^{2-1} =2x\\
+\\
+y=x^{2} +4\\
+\frac{dy}{dx} =2( x)^{2-1} +0=2x\\
+\\
+y=2x^{3}\\
+\frac{dy}{dx} =2\left( 3( x)^{2}\right) =6x^{2}\\
+\\
+y\ =\ ( x+2)^{3}\\
+\frac{dy}{dx} =\ 3( x+2)^{3-1}( 1+0) =3( x+2)^{2}\\
+\\
+y=2( 3x+5)^{4}\\
+\frac{dy}{dx} =4\left( 2( 3x+5)^{3}\right)( 3+0) =24( 3x+5)^{3}
+\end{array}
+\end{equation} \\\\\\\\\\\\\\\\\\\\\\\\\\
+
+\section{Partial Differentiation}
+
+Partial Differentiation is when there is more that one independent variable. In the examples below, $x$ and $y$ will be the independent variables and $z$ will be the dependent variable. 
+
+This finds the slope on a certain axis. When finding the slope in the x-axis, $y$ is constant and vice versa. 
+
+\url{https://www.khanacademy.org/math/multivariable-calculus}
+
+\begin{equation}
+\begin{array}{l}
+z=\ x\ +\ y\\
+\frac{\partial z}{\partial x} =1+0\ =\ 1\\
+\frac{\partial z}{\partial y} =0\ +1\ =\ 1\\
+\\
+z=x^{2} +y\\
+\frac{\partial z}{\partial x} =2( x)^{1} =2x\\
+\frac{\partial z}{\partial y} =\ 0\ +\ 1\ =\ 1\\
+\\
+z\ =\ xy\\
+\frac{\partial z}{\partial x} =\ y\\
+\frac{\partial z}{\partial y} =x\\
+\\
+z\ =\ 2( x+y+3)^{4}\\
+\frac{\partial z}{\partial x} =4\left( 2( x+y+3)^{3}\right)( 1+0+0) =8( x+y+3)^{3}\\
+\frac{\partial z}{\partial y} =4\left( 2( x+y+3)^{3}\right)( 0+1+0) \ =\ 8( x+y+3)^{3}\\
+\\
+z\ =\ 3\left( xy^{2} +4\right)^{5}\\
+\frac{\partial z}{\partial x} =5\left( 3\left( xy^{2} +4\right)^{4}\right)\left( y^{2} +0\right) =15\left( xy^{2} +y\right)^{4}\left( y^{2}\right)\\
+\frac{\partial z}{\partial y} =5\left( 3\left( xy^{2} +4\right)^{4}\right)( 2xy+0) =30\left( xy^{2} +4\right)^{4}( xy)
+\end{array}
+\end{equation}
+
+\end{document}
